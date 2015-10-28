@@ -1,0 +1,79 @@
+body{
+
+	background-image: url(telaprincipal.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+           
+}
+
+h1{
+    
+    padding-left: 55%;
+    font-size: 105px;
+    color: orange;
+    margin-top: -3px;
+    text-shadow: red 1px -1px 2px, #000 -1px 1px 2px, red 1px 1px 2px, red -1px -1px 2px;
+
+}
+
+h2{
+
+    padding-left: 70%;
+    font-size: 95px;
+    color: orange;
+    margin-top: -80px;
+    text-shadow: red 1px -1px 2px, #000 -1px 1px 2px, red 1px 1px 2px, red -1px -1px 2px;
+}
+
+p{
+
+    padding-left: 4%;
+    color: white;
+    font-size: 25px;
+    float: left;
+    width: 40%;
+    margin-top: 5px;
+    text-align: center;
+    text-shadow: #000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px; 
+
+}
+
+.y{
+
+    margin-top: -270px;
+    padding-left: 17%;
+
+
+
+}
+
+    
+.p{
+
+    margin-top: -60px;
+    padding-left: 24%;
+    border: 0px;
+	
+
+}
+
+
+
+input[type="button"] {
+ background: orange;
+ margin: 45px;
+ margin-left: 180px;
+ width: 25%;
+ height: 60px;
+ border-radius: 20px;
+ color: darkred;
+ font-size: 1.5em;
+ cursor: pointer;
+ transition: background 0.3s ease-in-out;
+}
+input[type="button"]:hover {
+ background: solid #435160;
+ animation-name: shake;
+}
+
